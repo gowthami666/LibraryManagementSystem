@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+<definition name="base.definition" template="/WEB-INF/jsp/Layout.jsp">  
+            <put-attribute name="header" value="/WEB-INF/jsp/Header.jsp" />  
+            <put-attribute name="body" value="" />  
+            <put-attribute name="footer" value="/WEB-INF/jsp/Footer.jsp" />  
+ </definition> 
+ 
+  <definition name="welcomePage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp"/>
+  </definition>
+  
+  <definition name="bookSearch" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/BookSearchResults.jsp"/>
+  </definition>
+  
+  <definition name="BorrowerPage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/BorrowerPage.jsp"/>
+  </definition>
+  
+  <definition name="CheckoutPage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/CheckoutPage.jsp"/>
+  </definition>
+  <definition name="BookCheckin" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/BookCheckin.jsp"/>
+  </definition>
+  <definition name="FinesPage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/FinesPage.jsp"/>
+  </definition>
+  <definition name="Error" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/jsp/Error.jsp"/>
+  </definition>
+</tiles-definitions>

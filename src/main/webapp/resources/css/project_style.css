@@ -1,0 +1,48 @@
+body {
+font-size: 10px !important;
+line-height:1;
+}
+table tbody .selected {
+    background-color: #b0bed9;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 4px;
+}
+.border
+{
+	border-bottom:5px solid;
+	padding-bottom:5px
+}
+.error
+{
+	font-size: 12px;
+	padding:3px;
+	font-weight:bold;
+	color:red;
+	
+
+}
+.success
+{
+	font-size: 12px;
+	padding:3px;
+	font-weight:bold;
+	color:green;
+	
+
+}
+.headings
+{
+	font-size:12px;
+	padding:5px;
+	color:blue;
+	font-weight:bold;
+}
+
+.title
+{
+	font-size:13px;
+	padding:5px;
+	color:blue;
+	font-weight:bold;
+}
